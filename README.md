@@ -4,4 +4,5 @@
 2. Ctrl + A to select everything and Ctrl + C to copy text to clipboard
 3. Run scraper.bat
 4. Voila! Paste results to text editor
-\n💻 Note: Replace scraper.py location in scraper.bat file
+
+💻 Note: Replace scraper.py location in scraper.bat file
