@@ -1,2 +1,2 @@
-@py C:\Users\dette\source\repos\passion-projects\python-tests\tools\mapit.py %*
+@py FILE-PATH\mapit.py %*
 @pause

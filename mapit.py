@@ -10,4 +10,4 @@ else:
     address = pyperclip.paste()
 
 MAPS_URL = 'https://www.google.com/maps/place/'
-webbrowser.open(''.join(MAPS_URL,address))
+webbrowser.open(MAPS_URL+address)
