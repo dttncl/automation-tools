@@ -1,12 +1,11 @@
 # Automation Tools
+💻 Note: Update python file path in batch files
 
 ## Email and Phone Scraper
 1. Open sample pdf (examplePhoneEmailDirectory.pdf)
 2. Ctrl + A to select everything and Ctrl + C to copy text to clipboard
 3. Run scraper.bat
 4. Voila! Paste results to text editor
-
-💻 Note: Update python file path in batch files
 
 ## Google Maps Finder
 Way 1:
