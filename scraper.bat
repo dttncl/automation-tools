@@ -1,2 +1,2 @@
-@py C:\Users\dette\source\repos\passion-projects\python-tests\tools\scraper.py %*
+@py FILE-PATH\scraper.py %*
 @pause
