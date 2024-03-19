@@ -27,6 +27,7 @@ emailRegex = re.compile(r'''
 @                        # @ symbol
 [a-zA-Z0-9.+_]+        # domain name
 ''',re.VERBOSE)
+
 # TODO: Get text off the clipboard
 text = pyperclip.paste()
 
@@ -38,10 +39,6 @@ allPhoneNumbers = []
 for phone in extractedPhone:
     allPhoneNumbers.append(phone[0])
 
-print(allPhoneNumbers)
-print(extractedEmail)
-
 # TODO: Copy the extracted email/phone to the clipboard
-
-
-
+results = '\n'.join(allPhoneNumbers) + '\n' + '\n'.join(extractedEmail)
+pyperclip.copy(results)
