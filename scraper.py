@@ -1,6 +1,6 @@
 #! python3
 
-import re, pyperclip
+import re, pyperclip, sys
 
 # TODO: Create regex for phone numbers
 
@@ -42,3 +42,6 @@ for phone in extractedPhone:
 # TODO: Copy the extracted email/phone to the clipboard
 results = '\n'.join(allPhoneNumbers) + '\n' + '\n'.join(extractedEmail)
 pyperclip.copy(results)
+
+print('Scraped Successfully! Paste results to notepad.')
+print(sys.argv)
