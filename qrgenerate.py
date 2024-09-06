@@ -1,3 +1,4 @@
+#! python3
 
 """
 
@@ -67,6 +68,7 @@ def generate_qr(csv_file, output_dir):
       exit(1) 
 		
 if __name__ == "__main__":
+      """
       parser = argparse.ArgumentParser(description="Generate QR codes from a CSV file.")
       parser.add_argument('csv_file', type=str, help='Path to the input CSV file.')
       parser.add_argument('output_dir', type=str, help='Directory to save QR codes.')
@@ -75,6 +77,14 @@ if __name__ == "__main__":
       
       csv_file = args.csv_file
       output_dir = args.output_dir
+      """
+
+      params = sys.argv
+
+      if len(params) > 1:
+         csv_file = params[0]
+         output_dir = params[1]
+         #address = ' '.join(params[1:])
       
       # TODO: Create output directory if it doesn't exist
       if not os.path.exists(output_dir):
